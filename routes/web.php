@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ExerciseController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
@@ -16,6 +17,8 @@ Route::get('/', function () {
 });
 
 Route::resource('exercises', ExerciseController::class);
+
+Route::get('/contact', ContactController::class)->name('contact');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
