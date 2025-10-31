@@ -45,6 +45,16 @@ const addExercise = () => {
                 <InputError class="mt-2" :message="form.errors.description" />
             </div>
             <div class="mt-4">
+                <InputLabel for="duration" value="Duration" />
+                <TextInput
+                    id="duration"
+                    type="text"
+                    class="mt-1 block w-full"
+                    v-model="form.description"
+                />
+                <InputError class="mt-2" :message="form.errors.duration" />
+            </div>
+            <div class="mt-4">
                 <PrimaryButton class="mt-4">
                     Add
                 </PrimaryButton>
