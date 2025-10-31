@@ -21,6 +21,7 @@ const addExercise = () => {
 </script>
 
 <template>
+    <h2>Add An Exercise</h2>
     <div>
         <form @submit.prevent="addExercise">
             <div>
