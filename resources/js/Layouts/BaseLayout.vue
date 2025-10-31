@@ -7,7 +7,7 @@
         <!-- Header -->
         <header class="w-full bg-white shadow">
             <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-                <h1 class="text-xl font-semibold text-gray-800">My App Is Great</h1>
+                <h1 class="text-xl font-semibold text-gray-900">My App Is Great</h1>
 
                 <!-- Example: right-side nav/actions -->
                 <nav class="space-x-4">
